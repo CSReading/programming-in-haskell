@@ -1,3 +1,5 @@
+module Merge (merge) where
+
 merge :: (Ord a) => [a] -> [a] -> [a]
 merge [] [] = []
 merge [] ys = ys
